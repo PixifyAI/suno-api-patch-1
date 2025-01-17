@@ -1,0 +1,192 @@
+{
+  "version": 2,
+  "headers": [
+    {
+      "source": "/api/generate",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://pixifyai.art"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "POST"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type"
+        }
+      ]
+    },
+    {
+      "source": "/v1/chat/completions",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://pixifyai.art"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "POST"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type, Authorization"
+        }
+      ]
+    },
+    {
+      "source": "/api/custom_generate",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://pixifyai.art"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "POST"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type"
+        }
+      ]
+    },
+    {
+      "source": "/api/generate_lyrics",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://pixifyai.art"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "POST"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type"
+        }
+      ]
+    },
+    {
+      "source": "/api/get",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://pixifyai.art"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type"
+        }
+      ]
+    },
+    {
+      "source": "/api/get?ids=(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://pixifyai.art"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type"
+        }
+      ]
+    },
+    {
+      "source": "/api/get_limit",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://pixifyai.art"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type"
+        }
+      ]
+    },
+    {
+      "source": "/api/extend_audio",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://pixifyai.art"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "POST"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type"
+        }
+      ]
+    },
+    {
+      "source": "/api/generate_stems",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://pixifyai.art"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "POST"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type"
+        }
+      ]
+    },
+    {
+      "source": "/api/get_aligned_lyrics",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://pixifyai.art"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type"
+        }
+      ]
+    },
+    {
+      "source": "/api/concat",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://pixifyai.art"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "POST"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type"
+        }
+      ]
+    }
+  ]
+}
