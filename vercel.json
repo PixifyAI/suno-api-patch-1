@@ -87,7 +87,7 @@
       ]
     },
     {
-      "source": "/api/get?ids=(.*)",
+      "source": "/api/get?ids=",
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
