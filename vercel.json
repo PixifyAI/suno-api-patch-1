@@ -87,23 +87,6 @@
       ]
     },
     {
-      "source": "/api/get?ids=",
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "https://pixifyai.art"
-        },
-        {
-          "key": "Access-Control-Allow-Methods",
-          "value": "GET, OPTIONS"
-        },
-        {
-          "key": "Access-Control-Allow-Headers",
-          "value": "Content-Type"
-        }
-      ]
-    },
-    {
       "source": "/api/get_limit",
       "headers": [
         {
